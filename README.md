@@ -1,4 +1,4 @@
-# Telco Customer Churn Survival Analysis - Deep Implementation
+# Telco Customer Churn Survival Analysis
 
 A comprehensive survival analysis implementation for the IBM Telco Customer Churn dataset using advanced Python statistical modeling. This project demonstrates graduate-level survival analysis techniques with extensive covariate modeling to understand customer retention patterns and identify key factors that influence churn behavior.
 
@@ -40,12 +40,12 @@ This project performs an advanced survival analysis workflow on telecommunicatio
 
 ```
 Survival Analysis/
-├── telco_survival_analysis_deep.py    # Advanced analysis script (MAIN)
+├── telco_survival_analysis.py    # Advanced analysis script (MAIN)
 ├── telco_survival_analysis.py         # Basic analysis script (for comparison)
 ├── Telco-Customer-Churn.csv          # Dataset
 ├── README.md                          # This file
 ├── Survival_Analysis_Report.md        # Comprehensive academic report
-├── survival_plots_deep/               # Advanced visualizations (created on run)
+├── survival_plots/               # Advanced visualizations (created on run)
 │   ├── overall_survival.png
 │   ├── survival_by_contract.png
 │   └── adjusted_survival_by_contract.png
@@ -80,9 +80,9 @@ cd "path/to/Survival Analysis"
 pip install pandas numpy matplotlib statsmodels scipy
 ```
 
-### 3. Run the Deep Analysis (Recommended)
+### 3. Run the  Analysis (Recommended)
 ```bash
-python telco_survival_analysis_deep.py
+python telco_survival_analysi.py
 ```
 
 **Or run the basic analysis:**
@@ -103,7 +103,7 @@ python telco_survival_analysis.py
 - **Services**: Contract type, internet service, online security, tech support
 - **Financial**: Monthly charges, payment methods, paperless billing
 
-### Deep Analysis Covariates (12 total)
+### Analysis Covariates (12 total)
 1. **MonthlyCharges** (continuous)
 2. **SeniorCitizen** (binary)  
 3. **Contract** (Month-to-month, One year, Two year)
@@ -158,7 +158,7 @@ python telco_survival_analysis.py
 - Stratified survival curves by contract type
 - **Advanced adjusted survival curves** using proper baseline hazard extraction from Cox model
 
-## 📊 Key Results & Deep Insights
+## 📊 Key Results & Insights
 
 ### Major Business Findings
 
@@ -191,7 +191,7 @@ Higher Monthly Charges:    3% per dollar reduction (HR = 0.975)
 
 ## 🎨 Generated Visualizations
 
-The deep analysis generates three publication-quality plots in `survival_plots_deep/`:
+The analysis generates three publication-quality plots in `survival_plots/`:
 
 1. **Overall Survival Curve**: Population-level retention pattern
 2. **Survival by Contract Type**: Comparative retention across contract lengths  
@@ -202,7 +202,7 @@ The deep analysis generates three publication-quality plots in `survival_plots_d
 ### Modifying Analysis Parameters
 - **Dataset path**: Update `DATA_PATH` variable in either script
 - **Covariates**: Modify the `covariate_cols` list in `fit_cox_model()` 
-- **Deep analysis variables**: Adjust the comprehensive covariate set (12 variables)
+- **Analysis variables**: Adjust the comprehensive covariate set (12 variables)
 - **Grouping variables**: Change stratification variables in `kaplan_meier()`
 - **Visualization settings**: Adjust plot parameters in `plot_survival()`
 
@@ -223,7 +223,7 @@ This project demonstrates mastery of:
 
 ## 🏆 Project Strengths for Academic Submission
 
-### Deep Implementation Excellence
+### Implementation Excellence
 1. **Advanced Methodological Rigor**: 12-covariate Cox model with proper baseline hazard extraction
 2. **Professional Code Architecture**: Modular design with robust error handling
 3. **Comprehensive Statistical Validation**: Multiple assumption tests and diagnostic procedures
