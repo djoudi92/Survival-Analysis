@@ -203,7 +203,3 @@ This project demonstrates mastery of:
 ## 📜 License
 
 This project is for academic purposes. Dataset provided by IBM for educational use.
-
----
-
-**Note**: This analysis provides a foundation for understanding customer churn patterns. For production use, consider additional model validation, feature engineering, and business context integration.
