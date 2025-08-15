@@ -80,15 +80,11 @@ cd "path/to/Survival Analysis"
 pip install pandas numpy matplotlib statsmodels scipy
 ```
 
-### 3. Run the  Analysis (Recommended)
+### 3. Run the  Analysis
 ```bash
 python telco_survival_analysi.py
 ```
 
-**Or run the basic analysis:**
-```bash
-python telco_survival_analysis.py
-```
 
 ## 📊 Dataset Information
 
@@ -221,7 +217,7 @@ This project demonstrates mastery of:
 - **Data Science Workflow**: ETL, EDA, modeling, visualization, interpretation
 - **Python Programming**: Object-oriented design, statistical computing, data manipulation
 
-## 🏆 Project Strengths for Academic Submission
+## 🏆 Project Strengths
 
 ### Implementation Excellence
 1. **Advanced Methodological Rigor**: 12-covariate Cox model with proper baseline hazard extraction
